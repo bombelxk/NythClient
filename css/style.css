@@ -49,8 +49,14 @@ body {
 .nav-logo {
     display: flex;
     align-items: center;
-    gap: 8px;
+    gap: 10px;
     text-decoration: none;
+}
+.nav-logo-img {
+    width: 32px;
+    height: 32px;
+    border-radius: 6px;
+    object-fit: contain;
 }
 .logo-icon {
     font-size: 24px;
@@ -588,9 +594,14 @@ section { padding: 100px 0; }
     gap: 20px;
     text-align: center;
 }
-.footer-brand { display: flex; align-items: center; gap: 6px; }
-.footer-brand .logo-icon { font-size: 20px; }
+.footer-brand { display: flex; align-items: center; gap: 10px; }
 .footer-brand .logo-text { font-size: 16px; }
+.footer-logo-img {
+    width: 28px;
+    height: 28px;
+    border-radius: 4px;
+    object-fit: contain;
+}
 .footer-desc {
     font-size: 13px;
     color: #666;
